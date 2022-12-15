@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+  <title>Olá, mundo!</title>
+</head>
+
+<body>
+  <div class="jumbotron text-center">
+    <h1 class="display-3">Cocina del Jef</h1>
+    <p>Delivery de comida brasileira em São Paulo</p>
+    <p>Para imprimir nossas receitas tecle <kbd>Ctrl+P</kbd></p>
+    <mark>Peça pelo app</mark>
+  </div>
+  <nav>
+    <ul class="nav nav-tabs">
+
+      <li class="nav-item">
+      <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Produtos</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href=”#”>Serviços</a>
+      </li>
+      <li class=”nav-item”>
+          <a class="nav-link disabled" href=”#”>Disabled</a>
+       </li>
+      </ul>
+  </nav>
+  <div class="conteiner">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Recomendação</h3>
+        <img
+          src="https://www.santos.sp.gov.br/static/files_www/styles/newspagesimples/public/field/image/bistro_2_0.jpg"
+          class="img-thumbnail" />
+        <p>Nome do prato</p>
+        <p>Texto descrevendo os itens do prato, acompanhamento, bebida,…</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Recomendação</h3>
+        <img
+          src="https://i0.wp.com/mediotejo.net/wp-content/uploads/2022/05/Savel-Frito-com-Migas-de-Pao-de-Trigo-CHFB-29.jpg"
+          class="img-thumbnail" />
+        <p>Nome do prato</p>
+        <p>Texto descrevendo os itens do prato, acompanhamento, bebida,…</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Recomendação</h3>
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/82/3f/a2/img-20181117-135919-largejpg.jpg"
+          class="img-thumbnail" />
+        <p>Nome do prato</p>
+        <p>Texto descrevendo os itens do prato, acompanhamento, bebida,…</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Recomendação</h3>
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1d/87/a6/43/caption.jpg" class="img-thumbnail" />
+        <p>Nome do prato</p>
+        <p>Texto descrevendo os itens do prato, acompanhamento, bebida,…</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <table class="table table-hover thead-light">
+      <thead>
+        <tr>
+          <th>Prato</th>
+          <th>Complemento</th>
+          <th>Quantidade de calorias</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Salada Mista</td>
+          <td>porção de arroz</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>Bife especial</td>
+          <td>porção de arroz com feijão</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Lasanha bolonhesa</td>
+          <td>molho especial</td>
+          <td>1500</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <hr>
+  <div>
+    <h3>Lista:</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Prato 1</li>
+      <li class="list-group-item-action">Prato 2 (escolha do dia)</i>
+      <li class="list-group-item">Prato 3</li>
+    </ul>
+  </div>
+  <hr><hr>
+<h3>Formulário</h3>
+  <form action="envio.php" class="was-validated">
+    <div class="form-group">
+      <label for="cliente">Nome:</label>
+      <input type="text" class="form-control" id=″cliente″ name=″cliente″>
+      <div class=″valid-feedback″>ok
+      </div>
+      <div class="invalid-feedback">Ops! Verifique seu nome
+      </div>
+      <div class="form-group">
+        <label for="email">Telefone:</label>
+        <input type="email" class="form-control" id=″email″ name=″email″>
+        <div class="valid-feedback">Ok</div>
+        <div class="invalid-feedback">Ops! Verifique seu e-mail</div>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" name="pedido"></textarea>
+      </div>
+      <!-- JavaScript (Opcional) -->
+      <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
